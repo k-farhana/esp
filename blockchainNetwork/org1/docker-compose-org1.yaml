@@ -65,7 +65,7 @@ services:
 
   couch.peer0.org1.test.com:
     container_name: couch.peer0.org1.test.com
-    image: hyperledger/fabric-couchdb
+    image: couchdb:3.1.1
     environment:
       - COUCHDB_USER=testv1org1
       - COUCHDB_PASSWORD=passw0rd
@@ -114,7 +114,7 @@ services:
 
   couch.peer1.org1.test.com:
     container_name: couch.peer1.org1.test.com
-    image: hyperledger/fabric-couchdb
+    image: couchdb:3.1.1
     environment:
       - COUCHDB_USER=testv1org1
       - COUCHDB_PASSWORD=passw0rd
