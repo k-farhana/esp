@@ -47,7 +47,7 @@
 					"eventSource": false
         }
      },
-      "chaincodes": [ "Loancc:v1.0", "Shipmentcc:v1.0" ]
+      "chaincodes": [ "Pineapplecc:v1.0", "Jamcc:v1.0" ]
       }
     },
 	"organizations": {
